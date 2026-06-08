@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B200000000000000000000B2 /* DiscStatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000B1 /* DiscStatsApp.swift */; };
+		B400000000000000000000B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300000000000000000000B3 /* ContentView.swift */; };
+		B600000000000000000000B6 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500000000000000000000B5 /* Scanner.swift */; };
+		B800000000000000000000B8 /* FileNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B700000000000000000000B7 /* FileNode.swift */; };
+		BA00000000000000000000BA /* TreemapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B900000000000000000000B9 /* TreemapView.swift */; };
+		BC00000000000000000000BC /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB00000000000000000000BB /* AboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A500000000000000000000A5 /* DiscStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B100000000000000000000B1 /* DiscStatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscStatsApp.swift; sourceTree = "<group>"; };
+		B300000000000000000000B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B500000000000000000000B5 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		B700000000000000000000B7 /* FileNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNode.swift; sourceTree = "<group>"; };
+		B900000000000000000000B9 /* TreemapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreemapView.swift; sourceTree = "<group>"; };
+		BB00000000000000000000BB /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A700000000000000000000A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A200000000000000000000A2 = {
+			isa = PBXGroup;
+			children = (
+				AF00000000000000000000AF /* DiscStats */,
+				A300000000000000000000A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A300000000000000000000A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A500000000000000000000A5 /* DiscStats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF00000000000000000000AF /* DiscStats */ = {
+			isa = PBXGroup;
+			children = (
+				B100000000000000000000B1 /* DiscStatsApp.swift */,
+				B300000000000000000000B3 /* ContentView.swift */,
+				B500000000000000000000B5 /* Scanner.swift */,
+				B700000000000000000000B7 /* FileNode.swift */,
+				B900000000000000000000B9 /* TreemapView.swift */,
+				BB00000000000000000000BB /* AboutView.swift */,
+			);
+			path = DiscStats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A400000000000000000000A4 /* DiscStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA00000000000000000000AA /* Build configuration list for PBXNativeTarget "DiscStats" */;
+			buildPhases = (
+				A600000000000000000000A6 /* Sources */,
+				A700000000000000000000A7 /* Frameworks */,
+				A800000000000000000000A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscStats;
+			productName = DiscStats;
+			productReference = A500000000000000000000A5 /* DiscStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A100000000000000000000A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A400000000000000000000A4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A900000000000000000000A9 /* Build configuration list for PBXProject "DiscStats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A200000000000000000000A2;
+			productRefGroup = A300000000000000000000A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A400000000000000000000A4 /* DiscStats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A800000000000000000000A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A600000000000000000000A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B200000000000000000000B2 /* DiscStatsApp.swift in Sources */,
+				B400000000000000000000B4 /* ContentView.swift in Sources */,
+				B600000000000000000000B6 /* Scanner.swift in Sources */,
+				B800000000000000000000B8 /* FileNode.swift in Sources */,
+				BA00000000000000000000BA /* TreemapView.swift in Sources */,
+				BC00000000000000000000BC /* AboutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB00000000000000000000AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC00000000000000000000AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD00000000000000000000AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DiscStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE00000000000000000000AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DiscStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A900000000000000000000A9 /* Build configuration list for PBXProject "DiscStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB00000000000000000000AB /* Debug */,
+				AC00000000000000000000AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA00000000000000000000AA /* Build configuration list for PBXNativeTarget "DiscStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD00000000000000000000AD /* Debug */,
+				AE00000000000000000000AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A100000000000000000000A1 /* Project object */;
+}
